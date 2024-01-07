@@ -1,6 +1,6 @@
 # nextjs-github-actions-bun
 
-This is a Proof of Concept (or I guess example, well isn't that what PoC means?) of how to setup Next.js with GitHub Actions and bun.
+This is an example of how to setup Next.js with GitHub Actions and bun.
 
 How this repo was created
 ```bash
