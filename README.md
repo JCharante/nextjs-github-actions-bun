@@ -9,8 +9,8 @@ bunx create-next-app
 
 How to run the server
 ```bash
-``````
 bun --bun run dev # https://bun.sh/guides/ecosystem/nextjs
+``````
 
 Note that bun is not fully compatible with Next.js yet, and this uses bun's --bun flag to force it to run with bun.
 
