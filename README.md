@@ -1,3 +1,25 @@
+# nextjs-github-actions-bun
+
+This is a Proof of Concept (or I guess example, well isn't that what PoC means?) of how to setup Next.js with GitHub Actions and bun.
+
+How this repo was created
+```bash
+bunx create-next-app
+```
+
+How to run the server
+```bash
+``````
+bun --bun run dev # https://bun.sh/guides/ecosystem/nextjs
+
+Note that bun is not fully compatible with Next.js yet, and this uses bun's --bun flag to force it to run with bun.
+
+If you want to run it with node, then you can use `bun run dev` and bun will use Node.js to run the server.
+
+This does require having Node 18.19 installed, as Next.js 14.04 requires Node 18.19.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
